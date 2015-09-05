@@ -1,0 +1,26 @@
+{
+  "name": "harn-framework",
+  "version": "1.0.1",
+  "description": "JavaScript stack for rapid prototyping",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhawlwut/harn-framework.git"
+  },
+  "author": "Jonny Hawley",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/jhawlwut/harn-framework/issues"
+  },
+  "homepage": "https://github.com/jhawlwut/harn-framework#readme",
+  "dependencies": {
+    "arangojs": "^3.9.1",
+    "bower": "^1.5.2",
+    "hapi": "^9.2.0",
+    "hapi-react-views": "^3.1.0",
+    "inert": "^3.0.1",
+    "install": "^0.1.8",
+    "npm": "^2.14.2",
+    "react": "^0.13.3",
+    "vision": "^3.0.0"
+  }
+}
