@@ -1,0 +1,20 @@
+{
+  "name": "harn-framework",
+  "version": "1.0.1",
+  "homepage": "https://github.com/jhawlwut/harn-framework",
+  "authors": [
+    "Jonny Hawley"
+  ],
+  "description": "JavaScript stack for rapid prototyping",
+  "license": "Apache-2.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react": "~0.13.3"
+  }
+}
