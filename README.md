@@ -1,4 +1,4 @@
-# harn-framework
+# harn-framework [![Build Status](https://travis-ci.org/jhawlwut/harn-framework.svg?branch=travis-build)](https://travis-ci.org/jhawlwut/harn-framework)
 HapiJS, ArangoDB, ReactJS, and NodeJS boilerplate for rapid prototypes and getting you to MVP state... enterprise ready
 
 ## Why?
