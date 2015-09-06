@@ -1,5 +1,6 @@
 var Hapi = require('hapi'),
-  Path = require('path');
+  Path = require('path'),
+  Routes = require('./server/routes');
 
 // Create a server with a host and port
 var server = new Hapi.Server();
@@ -28,27 +29,7 @@ server.register([{
 });
 
 // Index route
-server.route({
-  method: 'GET',
-  path: '/',
-  handler: function(request, reply) {
-    reply.view('index', {
-      title: 'index.jsx | Hapi ',
-      message: 'Hello World!'
-    });
-  }
-});
-
-// Public Directory
-server.route({
-    method: 'GET',
-    path: '/{param*}',
-    handler: {
-        directory: {
-            path: 'public'
-        }
-    }
-});
+server.route(Routes);
 
 // Start the server
 server.start(function() {

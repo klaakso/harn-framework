@@ -1,7 +1,8 @@
 var React = require('react/addons'),
   Head = require('./includes/header.jsx'),
   Nav = require('./includes/nav.jsx'),
-  Table = require('./table.jsx');
+  Table = require('./table.jsx'),
+  Footer = require('./includes/footer.jsx');
 
 var Component = React.createClass({
   render: function() {
@@ -17,6 +18,7 @@ var Component = React.createClass({
             </div>
             <Table />
           </div>
+          <Footer />
           <script src="https://code.jquery.com/jquery-2.1.1.min.js" type="text/javascript"></script>
           <script src="bower_components/Materialize/dist/js/materialize.min.js" type="text/javascript"></script>
         </body>

@@ -3,7 +3,7 @@ var React = require('react/addons');
 var Component = React.createClass({
   render: function() {
     return (
-      <nav>
+      <nav className="teal">
         <div className="container">
           <div className="nav-wrapper">
             <a class="brand-logo" href="#">Logo</a>
