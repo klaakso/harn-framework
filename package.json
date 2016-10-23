@@ -6,6 +6,9 @@
     "type": "git",
     "url": "git+https://github.com/jhawlwut/harn-framework.git"
   },
+  "scripts": {
+    "nsp": "nsp check"
+  },
   "author": "Jonny Hawley",
   "license": "Apache-2.0",
   "bugs": {
@@ -23,5 +26,8 @@
     "npm": "^2.14.2",
     "react": "^0.13.3",
     "vision": "^3.0.0"
+  },
+  "devDependencies": {
+    "nsp": "^2.6.2"
   }
 }
