@@ -16,3 +16,22 @@ The purpose of this stack is to be non-intrusive to your long-term scaleability.
 [ArangoDB](https://www.arangodb.com/) - "A distributed free and open-source database with a flexible data model for documents, graphs, and key-values. Build high performance applications using a convenient SQL-like query language or JavaScript extensions."
 
 [ReactJS](http://facebook.github.io/react/) - "React abstracts away the DOM from you, giving a simpler programming model and better performance. React can also render on the server using Node, and it can power native apps using React Native."
+
+## How?
+
+Here are instructions on how to run development instance locally.
+
+Install [Bower](https://bower.io/) (if you don't have that already)
+
+    npm install -g bower
+
+Install project dependencies
+
+    npm install
+    bower install
+
+Start server on localhost
+
+    nodemon server.js
+
+Point your browser to http://localhost:8000
